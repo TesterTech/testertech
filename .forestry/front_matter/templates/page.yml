@@ -57,7 +57,7 @@ fields:
   config:
     required: true
 pages:
-- ultricies.md
 - sed.md
+- ultricies.md
 - generic.md
 - feugiat.md

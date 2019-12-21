@@ -17,16 +17,11 @@ sidebar:
 sections:
 - type: intro
   template: intro
-  title: Hyperspace
-  subtitle: "Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  \ncol
-    accumsan est arcu donec sed Eleifend Integer."
-  section_id: intro
+  title: Vlogs
+  subtitle: Collection of IT related tech video's
+  section_id: vlogs
   background_style: style1
-  actions:
-  - label: Learn more
-    url: "#one"
-    is_scrolly: true
-    is_primary: false
+  actions: []
   component: intro.html
 - type: spotlights
   template: spotlights
@@ -38,5 +33,6 @@ layout: home
 menu:
   main:
     weight: 1
+published: false
 
 ---

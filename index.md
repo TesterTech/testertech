@@ -5,14 +5,14 @@ sidebar:
   - title: Welcome
     url: "#intro"
     is_primary: true
+  - title: Get in touch
+    url: "#three"
+    is_primary: false
   - title: Who we are
     url: "#one"
     is_primary: false
   - title: What we do
     url: "#two"
-    is_primary: false
-  - title: Get in touch
-    url: "#three"
     is_primary: false
 sections:
 - type: intro

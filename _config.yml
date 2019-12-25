@@ -12,10 +12,10 @@ palettes:
       accent3: "#4ca07e"
   green:
     sass:
-      bg: "#20313d"
-      accent1: "#2e9692"
-      accent2: "#3aa4ca"
-      accent3: "#b84d50"
+      bg: "#102110"
+      accent1: "#4b984c"
+      accent2: "#2fbc89"
+      accent3: "#4db852"
   purple:
     sass:
       bg: "#312450"
@@ -43,5 +43,7 @@ exclude:
 - stackbit-build.sh
 - stackbit-pull.js
 collections:
+  vlogs:
+    permalink: "/vlogs/:title/"
   posts:
     permalink: "/posts/:title/"

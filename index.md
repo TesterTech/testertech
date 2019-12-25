@@ -20,10 +20,10 @@ sections:
   background_style: style1
   actions: []
   component: welcome.html
-- type: featured
+- type: pages
   template: 
   title: Vlogs
-  subtitle: Collection of IT related tech video's (vlogs)
+  subtitle: 
   section_id: vlogs
   background_style: style2
   actions: []
@@ -37,6 +37,9 @@ sections:
   actions: []
   component: about.html
 layout: home
+collections:
+  vlogs:
+    output: true
 menu:
   main:
     weight: 1

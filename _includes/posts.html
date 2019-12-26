@@ -1,7 +1,10 @@
-<!-- Intro -->
+<!-- Posts -->
 <section id="{{ include.section.section_id }}" class="wrapper {{ include.section.background_style }} fullscreen fade-up">
     <div class="inner">
-        <ul>
+    	<h2>{{ include.section.title }}</h2>
+        {{ include.section.subtitle | markdownify }}
+        
+        <ul class="actions">
         {% for post in site.posts %}
           <li>
             <a href="{{ post.url }}">{{ post.title }}</a>

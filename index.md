@@ -21,9 +21,9 @@ sections:
   actions: []
   component: welcome.html
 - type: pages
-  template: 
+  template: posts
   title: Blog
-  subtitle: 
+  subtitle: Collection of (video) blogs about software testing related topics
   section_id: blog
   background_style: style2
   actions: []

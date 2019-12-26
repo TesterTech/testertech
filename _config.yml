@@ -44,5 +44,4 @@ exclude:
 - stackbit-pull.js
 collections:
   posts:
-    output: true
-    permalink: /posts/:title/
+    permalink: /vlogs/:title/

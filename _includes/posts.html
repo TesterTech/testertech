@@ -1,13 +1,12 @@
 <!-- Intro -->
 <section id="{{ include.section.section_id }}" class="wrapper {{ include.section.background_style }} fullscreen fade-up">
     <div class="inner">
-        {% for vlog in site.vlogs %}
-          <h2>
-            <a href="{{ vlog.url }}">
-              {{ vlog.name }}
-            </a>
-          </h2>
-          <p>{{ vlog.content | markdownify }}</p>
+        <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
         {% endfor %}
+      </ul>
     </div>
 </section>

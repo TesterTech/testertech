@@ -5,8 +5,8 @@ sidebar:
   - title: Welcome
     url: "#welcome"
     is_primary: true
-  - title: Vlogs
-    url: "#vlogs"
+  - title: Blog
+    url: "#blog"
     is_primary: false
   - title: About
     url: "#about"
@@ -22,9 +22,9 @@ sections:
   component: welcome.html
 - type: pages
   template: 
-  title: Vlogs
+  title: Blog
   subtitle: 
-  section_id: vlogs
+  section_id: blog
   background_style: style2
   actions: []
   component: posts.html

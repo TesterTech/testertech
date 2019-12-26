@@ -3,6 +3,7 @@
     <div class="inner">
         <h2>{{ include.section.title }}</h2>
         {{ include.section.subtitle | markdownify }}
+        {{ site.data.pages.welcome_text }}
         <div class="features">
             {% for feature in include.section.features_list %}
                 <section>

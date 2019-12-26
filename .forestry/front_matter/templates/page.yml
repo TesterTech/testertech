@@ -56,8 +56,3 @@ fields:
   default: page
   config:
     required: true
-pages:
-- feugiat.md
-- generic.md
-- sed.md
-- ultricies.md

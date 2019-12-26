@@ -1,0 +1,66 @@
+---
+label: Site-menu
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: sidebar
+  label: sidebar
+  fields:
+  - type: field_group_list
+    name: entries
+    label: entries
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: boolean
+      name: is_primary
+      label: is_primary
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: subtitle
+    label: subtitle
+  - type: text
+    name: section_id
+    label: section_id
+  - type: text
+    name: background_style
+    label: background_style
+  - type: list
+    name: actions
+    label: actions
+  - type: text
+    name: component
+    label: component
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: collections
+  label: collections
+  fields:
+  - type: field_group
+    name: vlogs
+    label: vlogs
+    fields:
+    - type: boolean
+      name: output
+      label: output

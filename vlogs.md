@@ -1,15 +1,14 @@
 ---
-title: Vlogs
-content_img_path: images/pic04.jpg
-home_spotlights:
-  enabled: true
-  weight: 1
-  excerpt: Videologs
-  home_img:
-    path: images/pic01.jpg
-    data_position: center center
-    url: "#"
 layout: page
-
+title: "A list of vlogs"
+permalink: "/vlogs/"
 ---
-Vlogs
+
+<ul>
+  {% for vlog in site.vlogs %}
+    <li>
+      <a href="{{ vlog.url }}">{{ vlog.title }}</a>
+      - {{ vlog.headline }}
+    </li>
+  {% endfor %}
+</ul>

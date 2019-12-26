@@ -43,7 +43,6 @@ exclude:
 - stackbit-build.sh
 - stackbit-pull.js
 collections:
-  vlogs:
-    permalink: "/vlogs/:title/"
   posts:
-    permalink: "/posts/:title/"
+    output: true
+    permalink: /posts/:title/

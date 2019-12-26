@@ -27,7 +27,7 @@ sections:
   section_id: vlogs
   background_style: style2
   actions: []
-  component: vlogs.html
+  component: posts.html
 - type: contact
   template: about
   title: About

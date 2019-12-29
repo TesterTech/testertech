@@ -1,6 +1,13 @@
 <!-- Two -->
 <section id="{{ include.section.section_id }}" class="wrapper {{ include.section.background_style }} fade-up">
     <div class="inner">
+    
+    <div class="split style2">
+        <section>
+            <img src="images/pic01.jpg" />
+        </section>
+        <section>
+
         <h2>{{ include.section.title }}</h2>
         {{ include.section.subtitle | markdownify }}
         {{ site.data.pages.welcome_text }}
@@ -21,5 +28,10 @@
                 {% endfor %}
             </ul>
         {% endif %}
+        
+        </section>
     </div>
+    
+    </div>
+        
 </section>
